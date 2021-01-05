@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Dosis', Helvetica, Arial, sans-serif;
+  font-size: 1.5em;
+}
+
+h1 {
+  font-family: 'Sacramento', sans-serif;
+  font-size: 5.625rem;
+  color: #66BFBF;
+  margin: 50px auto 0 auto;
+}
+
+h2 {
+  font-family: 'Amatic SC', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+}
+
+h3 {
+  font-family: 'Amatic SC', sans-serif;
+  color: #11999E;
+}
+
+a {
+  color: #11999E;
+}
+
+.top-container {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+width: 65%;
+margin: auto;
+}
+
+.bottom-container {
+
+}
+
+.top-cloud {
+  position: absolute;
+  right: 500px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 500px;
+  bottom: 300px;
+}
