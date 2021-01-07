@@ -70,16 +70,21 @@ hr {
   text-align: left;
 }
 
+.img-center-round {
+  height: 12.5rem;
+  border-radius: 50%;
+}
+
 .skill-img-left {
   border-radius: 50%;
-  width: 25%;
+  width: 12.5rem;
   float: left;
   margin-right: 30px;
 }
 
 .skill-img-right {
   border-radius: 50%;
-  width: 25%;
+  width: 12.5rem;
   float: right;
   margin-left: 30px;
 }
