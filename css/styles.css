@@ -111,7 +111,7 @@ hr {
 }
 
 .contact-btn:hover {
-  border: 1px solid #11999E;
+  border: 2px solid #11999E;
   cursor: pointer;
   transform: scale(1.1);
 }
