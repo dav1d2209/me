@@ -27,8 +27,16 @@ h3 {
   font-family: 'Amatic SC', sans-serif;
 }
 
+p {
+  line-height: 2;
+}
+
 a {
   color: #11999E;
+}
+
+a:hover {
+  color: #666;
 }
 
 hr {
@@ -53,6 +61,11 @@ hr {
   position: absolute;
 }
 
+.top-mountain {
+  position: relative;
+  bottom: -5px;
+}
+
 .img-center-round {
   border-radius: 50%;
   height: 14.375rem;
@@ -62,14 +75,14 @@ hr {
 .skill-img-left {
   border-radius: 50%;
   float: left;
-  height: 14.375rem;
+  height: 15rem;
   margin-right: 30px;
 }
 
 .skill-img-right {
   border-radius: 50%;
   float: right;
-  height: 14.375rem;
+  height: 15rem;
   margin-left: 30px;
 }
 
@@ -78,13 +91,14 @@ hr {
 
 .top-container {
   background-color: #E4F9F5;
+  border-bottom: 2px solid #999999;
   padding-top: 100px;
   position: relative;
 }
 
 .middle-container {
   margin: auto;
-  width: 50%;
+  width: 60%;
 }
 
 .profile {
@@ -94,9 +108,14 @@ hr {
 }
 
 .skill-row {
-  line-height: 2;
   margin: 100px auto;
   text-align: left;
+  width: 80%;
+}
+
+.contact-me {
+  margin: auto;
+  width: 50%;
 }
 
 .contact-btn {
@@ -118,6 +137,7 @@ hr {
 
 .bottom-container {
   background-color: #66BFBF;
+  border-top: 2px solid #999999;
   margin: 0;
   padding: 35px;
 }
@@ -130,7 +150,6 @@ hr {
 }
 
 .bottom-container a {
-  color: #11999E;
   font-weight: bold;
   margin-top: 20px;
   padding: 0 20px;
